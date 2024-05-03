@@ -2,7 +2,7 @@ defmodule AshGeo.MixProject do
   use Mix.Project
 
   @name :ash_geo
-  @version "0.2.0"
+  @version "0.3.0"
   @description "Tools for using Geo, Topo and PostGIS with Ash"
   @source_url "https://github.com/bcksl/ash_geo"
 
@@ -39,9 +39,9 @@ defmodule AshGeo.MixProject do
     [
       {:jason, "~> 1.4"},
       {:geo, "~> 3.5"},
-      {:ash, "~> 2.13"},
+      {:ash, "~> 3.0.0-rc"},
       {:geo_postgis, "~> 3.4", only: :test},
-      {:ash_postgres, "~> 1.3", only: :test},
+      {:ash_postgres, "~> 2.0.0-rc", only: :test},
       {:topo, "~> 1.0", only: :test},
 
       # Testing, analysis, documentation, and release tools

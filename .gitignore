@@ -44,3 +44,4 @@ shell.nix
 
 # Testing
 priv
+.history
